@@ -1,0 +1,65 @@
+@media screen and (max-width: 1040px) {
+
+    .center {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .top-below .logo {
+        font-weight: 900;
+        text-align: center;
+        font-size: 25px;
+        padding: 0 45% 0 10%;
+    }
+
+    .list {
+        display: block;
+        border: 1px solid rgba(136, 136, 136, 0.533);
+        border-radius: 3px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .matter-title,
+    .number {
+        display: none;
+    }
+
+    .matter .matter-dis {
+        font-size: 32px;
+        margin-top: -45px;
+        padding-top: 0%;
+    }
+
+    .install {
+        display: none;
+    }
+
+    .row {
+        display: contents;
+    }
+
+    .subs {
+        width: 90%;
+        margin: 0 5% 0 0;
+        float: right;
+        list-style: none;
+        padding-bottom: 20px;
+    }
+    .country .one{
+        margin-top: 430px;
+    }
+    .one, .two, .three{
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .country .one{
+        margin-top: 460px;
+    }
+}
