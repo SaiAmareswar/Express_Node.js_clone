@@ -6,17 +6,19 @@
     <title>Express - Node.js web application framework</title>
     <link rel="icon" href="https://i.postimg.cc/pVSNw9Kh/logo.png" type="png" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="media.css" />
     <link
       rel="stylesheet"
       href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;amp;subset=latin,latin-ext"
     />
   </head>
   <body>
+    <!-- top -->
     <div class="top">
       <h3 class="top-title">Black Lives Matter.</h3>
       <a href="#" class="support">Support the Equal Justice Initiative.</a>
     </div>
+    <!-- below and logo -->
     <div class="top-below">
       <div class="center">
         <svg
@@ -29,23 +31,121 @@
         >
           <path
             fill-rule="evenodd"
-            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" stroke="grey" stroke-width="1"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            stroke="grey"
+            stroke-width="1"
           />
         </svg>
-        <a href="#" class="logo">Express</a>
+        <a href="index.html" class="logo">Express</a>
       </div>
+      <!----------------- this is the start of the menu of the nav bar ------------------------------->
       <div class="menu">
         <input type="text" placeholder="🔎 search" />
-        <a href="#" class="home">Home</a>
-        <a href="#" class="getstd">Getting started</a>
-        <a href="#" class="guide">Guide</a>
-        <a href="#" class="api">API reference</a>
-        <a href="#" class="topics">Advanced topics</a>
-        <a href="#" class="resources">Resources</a>
+        <a href="index.html" class="home">Home</a>
+
+        <div class="dropdown">
+          <a href="gs.html"
+            ><div class="dropdown-label">Getting Started</div></a
+          >
+          <div class="dropdown-options">
+            <a href=""><div class="dropdown-option">installing</div></a>
+            <a href=""><div class="dropdown-option">Hello World</div></a>
+            <a href=""><div class="dropdown-option">Express generator</div></a>
+            <a href=""><div class="dropdown-option">Basic routing</div></a>
+            <a href=""><div class="dropdown-option">Static files</div></a>
+            <a href=""><div class="dropdown-option">More examples</div></a>
+            <a href=""><div class="dropdown-option">FAQ</div></a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="g.html"><div class="dropdown-label">Guide</div></a>
+          <div class="dropdown-options">
+            <a href=""><div class="dropdown-option">Routing</div></a>
+            <a href=""><div class="dropdown-option">Writing middleware</div></a>
+            <a href=""><div class="dropdown-option">Using middleware</div></a>
+            <a href=""
+              ><div class="dropdown-option">Overriding the Express API</div></a
+            >
+            <a href=""
+              ><div class="dropdown-option">Using template engines</div></a
+            >
+            <a href=""><div class="dropdown-option">Error handling</div></a>
+            <a href=""><div class="dropdown-option">Debugging</div></a>
+            <a href=""
+              ><div class="dropdown-option">Express behind proxies</div></a
+            >
+            <a href=""
+              ><div class="dropdown-option">Moving to Express 4</div></a
+            >
+            <a href=""
+              ><div class="dropdown-option">Moving to Express 5</div></a
+            >
+            <a href=""
+              ><div class="dropdown-option">Database integration</div></a
+            >
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="api.html"><div class="dropdown-label">API reference</div></a>
+          <div class="dropdown-options">
+            <a href=""><div class="dropdown-option">5.x (beta)</div></a>
+            <a href=""><div class="dropdown-option">4.x</div></a>
+            <a href=""><div class="dropdown-option">3.x (deprecated)</div></a>
+            <a href=""><div class="dropdown-option">2.x (deprecated)</div></a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="adv.html"
+            ><div class="dropdown-label">Advanced topics</div></a
+          >
+          <div class="dropdown-options">
+            <a href=""><div class="dropdown-option">Template engines</div></a>
+            <a href=""><div class="dropdown-option">Process managers</div></a>
+            <a href=""><div class="dropdown-option">Security updates</div></a>
+            <a href=""
+              ><div class="dropdown-option">Security best practices</div></a
+            >
+            <a href=""
+              ><div class="dropdown-option">Performance best practices</div></a
+            >
+            <a href=""
+              ><div class="dropdown-option">Health checks and graceful</div></a
+            >
+            <a href=""><div class="dropdown-option">shutdown</div></a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="res.html"><div class="dropdown-label">Resources</div></a>
+          <div class="dropdown-options">
+            <a href=""><div class="dropdown-option">Community</div></a>
+            <a href=""><div class="dropdown-option">Glossary</div></a>
+            <a href=""><div class="dropdown-option">Template Engines</div></a>
+            <a href=""><div class="dropdown-option">Middleware</div></a>
+            <a href=""><div class="dropdown-option">Utility modules</div></a>
+            <a href=""><div class="dropdown-option">Frameworks</div></a>
+            <a href=""
+              ><div class="dropdown-option">Companies using Express</div></a
+            >
+            <a href=""
+              ><div class="dropdown-option">Open-source projects</div></a
+            >
+            <a href=""
+              ><div class="dropdown-option">Additional learning</div></a
+            >
+            <a href=""
+              ><div class="dropdown-option">Contributing to Express</div></a
+            >
+            <a href=""><div class="dropdown-option">Release Change Log</div></a>
+          </div>
+        </div>
       </div>
+      <!----------------- end of the menu bar that is nav bar ---------------------------------------->
     </div>
-    <div class="empty">
-    </div>
+    <!-- matter -->
     <div class="matter">
       <a href="#" class="matter-title">Express</a>
       <a href="#" class="number">4.18.1</a>
@@ -53,7 +153,9 @@
         Fast, unopinionated, minimalist web framework for <span>Node.js</span>
       </p>
     </div>
+    <!-- install -->
     <div class="install">$ npm install express --save</div>
+    <!-- anouncements -->
     <div class="hello">
       <img
         src="https://i.postimg.cc/rp328Kdm/announcement.png"
@@ -67,6 +169,7 @@
         <span>release history</span>.
       </p>
     </div>
+    <!-- sub divisions  -->
     <div class="row">
       <div class="subs">
         <h2 class="sub-title">Web Applications</h2>
@@ -98,6 +201,7 @@
         </p>
       </div>
     </div>
+    <!-- last part 1 -->
     <div class="country">
       <p class="one">
         Documentation translations provided by
@@ -135,6 +239,7 @@
         .
       </p>
     </div>
+    <!-- last part 2 -->
     <div class="two">
       <div class="star-content">
         <button class="star">
@@ -167,6 +272,7 @@
         Copyright © 2017 StrongLoop, IBM, and other expressjs.com contributors.
       </div>
     </div>
+    <!-- last part 3 -->
     <div class="three">
       <img
         src="https://i.postimg.cc/kX4syw10/80x15.png"
